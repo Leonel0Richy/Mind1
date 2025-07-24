@@ -4,7 +4,7 @@ const Newsletter = () => {
       <hr />
       <section className="flex flex-col items-center justify-center py-16">
         <h3 className="font-heading text-center text-2xl font-semibold uppercase tracking-wider text-primary">
-          Flexy UI <span className="mt-2 inline-block text-theme md:mt-3">Newsletter</span>
+          MasterMinds <span className="mt-2 inline-block text-theme md:mt-3">Newsletter</span>
         </h3>
         <p className="mb-8 mt-2 max-w-[550px] text-center text-base text-primary">
           Build better and faster UIs.

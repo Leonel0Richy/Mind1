@@ -21,9 +21,9 @@
 
 Check out the [live demo](https://react-tailwind-blog-app-template.netlify.app/) of the blog app to see all the components in action.
 
-### All these UI components are part of [Flexy UI](https://flexyui.com/), you can find details of each component [there](https://flexyui.com/).
+### All these UI components are part of [MasterMinds](https://masterminds.com/), you can find details of each component [there](https://masterminds.com/).
 
-[Flexy UI](https://flexyui.com/) is designed to help you build better, and faster UIs in React.
+[MasterMinds](https://masterminds.com/) is designed to help you build better, and faster UIs in React.
 
 ### List of Tailwind UI Components
 

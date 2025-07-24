@@ -71,7 +71,7 @@ const Footer = () => {
                 className="h-8"
                 alt="Logo"
               />
-              <h6 className="text-3xl font-semibold tracking-wider">Flexy UI</h6>
+              <h6 className="text-3xl font-semibold tracking-wider">MasterMinds</h6>
             </a>
             <address className="mt-3 text-base font-normal text-[#767E94]">
               <p className="mt-3 max-w-64">{contact.address}</p>

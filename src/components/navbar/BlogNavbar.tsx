@@ -31,7 +31,7 @@ const Navbar = () => {
               alt="Logo"
             />
             <span className="self-center whitespace-nowrap text-xl font-semibold text-primary md:text-2xl">
-              Flexy UI
+              MasterMinds
             </span>
           </a>
           {/* nav links */}

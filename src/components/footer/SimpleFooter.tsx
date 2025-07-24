@@ -45,7 +45,7 @@ const Footer = () => {
               className="h-8"
               alt="Logo"
             />
-            <span className="text-3xl font-semibold tracking-wider">Flexy UI</span>
+            <span className="text-3xl font-semibold tracking-wider">MasterMinds</span>
           </a>
           <p className="max-w-xl text-center text-lg font-medium text-white">{description}</p>
         </div>
