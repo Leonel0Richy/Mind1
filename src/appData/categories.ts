@@ -1,32 +1,27 @@
 export const categories = [
   {
-    imageSrc: 'https://cdn.pixabay.com/photo/2017/09/02/22/10/dolphin-2708695_1280.png',
+    imageSrc: 'https://cdn-icons-png.flaticon.com/512/7531/7531870.png',
     altText: 'JavaScript logo',
-    categoryName: 'Sea Food',
+    categoryName: 'Front End',
   },
   {
-    imageSrc: 'https://cdn.pixabay.com/photo/2024/05/16/09/15/tea-8765473_1280.png',
+    imageSrc: 'https://cdn-icons-png.flaticon.com/512/9912/9912126.png',
     altText: 'TypeScript logo',
-    categoryName: 'Cutlery',
+    categoryName: 'Back End',
   },
   {
-    imageSrc: 'https://cdn.pixabay.com/photo/2017/05/31/11/28/the-cup-2360104_1280.png',
+    imageSrc: 'https://www.jobboardfinder.com/upload/7480cf6f7ec084752d8e78ca4f021bd37c1b30eb/logo_jobboard.png',
     altText: 'TypeScript logo',
-    categoryName: 'Tea',
+    categoryName: 'Full Stack',
   },
   {
-    imageSrc: 'https://cdn.pixabay.com/photo/2017/07/29/18/42/wooden-box-2552370_1280.png',
+    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png',
+    altText: 'TypeScript logo',
+    categoryName: 'Ai',
+  },
+  {
+    imageSrc: 'https://cdn-icons-png.flaticon.com/512/2092/2092757.png',
     altText: 'JavaScript logo',
-    categoryName: 'Treasure Box',
-  },
-  {
-    imageSrc: 'https://cdn.pixabay.com/photo/2017/09/17/02/02/png-2757379_1280.png',
-    altText: 'JavaScript logo',
-    categoryName: 'Vehicles',
-  },
-  {
-    imageSrc: 'https://cdn.pixabay.com/photo/2016/02/23/17/44/apple-1218166_1280.png',
-    altText: 'TypeScript logo',
-    categoryName: 'Fruits',
+    categoryName: 'Cyber security',
   },
 ]
