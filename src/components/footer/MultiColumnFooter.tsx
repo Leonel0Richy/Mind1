@@ -24,35 +24,66 @@ const socialLinks = [
 ]
 
 const support = {
-  title: 'Support',
+  title: 'company',
   items: [
-    { label: 'Contact', href: '' },
-    { label: 'FAQs', href: '' },
-    { label: 'Pricing Plans', href: '' },
-    { label: 'Sitemap', href: '' },
+    { label: 'About us', href: '' },
+    { label: 'Git hub', href: '' },
+    { label: 'Freebies', href: '' },
+    { label: 'Premium', href: '' },
+    { label: 'Blog', href: '' },
+    { label: 'Affiliate Program', href: '' },
+    { label: 'Creative Tim Club', href: '' },
   ],
 }
 
 const quickLinks = {
-  title: 'Quick Links',
+  title: 'Help and Support',
   items: [
-    { label: 'Jobs', href: '' },
-    { label: 'Courses', href: '' },
-    { label: 'Paid Training', href: '' },
-    { label: 'Blog', href: '' },
+    { label: 'Knowledge Center', href: '' },
+    { label: 'Contact Us', href: '' },
+    { label: 'Premium Support', href: '' },
+    { label: 'Custom Development', href: '' },
+    { label: 'Teams & Conditions', href: '' },
+    { label: 'Privacy Policy', href: '' },
+    { label: 'Licences', href: '' },
+    { label: 'Illustration', href: '' },
+
   ],
 }
 
 const category = {
-  title: 'Category',
+  title: 'Tailwind Ressources',
   items: [
-    { label: 'Graphics', href: '' },
-    { label: 'Programming', href: '' },
-    { label: 'eCommerce', href: '' },
-    { label: 'Freelancing', href: '' },
+    { label: 'Admin & Dashboard', href: '' },
+    { label: 'Templates & Kits', href: '' },
+    { label: 'React & Tailwind', href: '' },
+    { label: 'Freamework', href: '' },
+    { label: 'HTML & Tailwind', href: '' },
+    { label: 'Freamework', href: '' },
+    { label: 'Figma Design System', href: '' },
+    { label: 'TW Cheatsheet', href: '' },
+    { label: 'TW Gradient', href: '' },
+    { label: 'Generator', href: '' },
+    { label: 'TW Components', href: '' },
   ],
 }
 
+const developer = {
+  title: 'DEveloper Ressources',
+  items: [
+    { label: 'GaliChat AI Assistant', href: '' },
+    { label: 'GPTs Collection', href: '' },
+    { label: 'Bootstrap Cheat', href: '' },
+    { label: 'Sheet', href: '' },
+    { label: 'ChatGPT Prompts', href: '' },
+    { label: 'AI Code Mentor', href: '' },
+    { label: 'Digital Ocean ', href: '' },
+    { label: 'Top Software', href: '' },
+    { label: 'Communies', href: '' },
+    { label: 'Software Engineering', href: '' },
+    { label: 'Inteligence', href: '' },
+  ],
+}
 const contact = {
   address: '4517 Washington Ave. Manchester, Kentucky 39495',
   phone: 'Phone: (405) 555-0128',
