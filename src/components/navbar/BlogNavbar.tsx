@@ -1,11 +1,13 @@
 import { CircleFadingPlus, MenuIcon } from 'lucide-react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const navLinks = [
-  { title: 'Homepage', link: '#' },
-  { title: 'Blog', link: '#' },
-  { title: 'Programs', link: '#' },
-  { title: 'About us', link: '#' },
+  { title: 'Home', link: '/' },
+  { title: 'Projects', link: '/projects' },
+  { title: 'Blog', link: '/blog' },
+  { title: 'Categories', link: '/categories' },
+  { title: 'MasterMinds', link: '/masterminds' },
 ]
 
 const Navbar = () => {
@@ -24,7 +26,7 @@ const Navbar = () => {
             <MenuIcon color="#7F3FFF" strokeWidth={3} size={25} />
           </button>
           {/* logo */}
-          <a href="#homepage" className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3">
             <img
               src="https://screendy-cdn.fra1.cdn.digitaloceanspaces.com/platfrom-v2/_files/file_1737026922989_geeks-logo.jpg"
               className="h-8"
@@ -33,17 +35,17 @@ const Navbar = () => {
             <span className="self-center whitespace-nowrap text-xl font-semibold text-primary md:text-2xl">
               MasterMinds
             </span>
-          </a>
+          </Link>
           {/* nav links */}
           <div
             className={`absolute left-0 right-0 -z-10 flex w-full flex-col gap-3 bg-white p-3 shadow transition-all duration-300 ease-in-out md:relative md:left-0 md:right-auto md:top-auto md:z-auto md:flex-row md:shadow-none ${showNav ? 'top-[60px]' : 'top-[-165px]'}`}>
             {navLinks.map(({ title, link }, index) => (
-              <a
+              <Link
                 key={index}
-                href={link}
+                to={link}
                 className="rounded-md px-3 py-2 text-secondary transition-colors duration-100 ease-linear hover:bg-gray-700 hover:text-white">
                 {title}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

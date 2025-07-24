@@ -1,4 +1,4 @@
 export const title = 'Master Minds'
 
 export const description =
-  'The most up-to-date and comprehensive resources, templates, and strategies to assist you in navigating technical interviews effectively.'
+  'Level up with tech guides, coding tips, and AI trends. Explore comprehensive development projects and showcase your technical expertise.'

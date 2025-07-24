@@ -148,28 +148,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-mid">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-4 py-5 md:flex-row md:justify-between">
-          <p className="text-center text-[#767E94]">
-            Learning Online © 2023. Developed by <span className="text-white">Abdul Basit</span>
-          </p>
-          <ul className="flex items-center gap-6">
-            {socialLinks.map(({ name, icon, link }) => (
-              <li key={name}>
-                <a
-                  href={link}
-                  title={name}
-                  className="text-[#767E94] hover:text-white"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {icon}
-                </a>
-                <span className="sr-only">{name} account</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
     </footer>
   )
 }
