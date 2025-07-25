@@ -1,6 +1,6 @@
-import { EarthIcon, FacebookIcon, LinkedinIcon, TwitterIcon } from 'lucide-react'
+// import { EarthIcon, FacebookIcon, LinkedinIcon, TwitterIcon } from 'lucide-react'
 
-const socialLinks = [
+/* const socialLinks = [
   {
     name: 'LinkedIn',
     link: '/',
@@ -21,7 +21,7 @@ const socialLinks = [
     link: '/',
     icon: <EarthIcon className="size-6" />,
   },
-]
+] */
 
 const support = {
   title: 'company',
@@ -68,7 +68,7 @@ const category = {
   ],
 }
 
-const developer = {
+/* const developer = {
   title: 'Developer Resources',
   items: [
     { label: 'GaliChat AI Assistant', href: '' },
@@ -82,7 +82,7 @@ const developer = {
     { label: 'Software Engineering', href: '' },
     { label: 'Intelligence', href: '' },
   ],
-}
+} */
 const contact = {
   address: '4517 Washington Ave. Manchester, Kentucky 39495',
   phone: 'Phone: (405) 555-0128',

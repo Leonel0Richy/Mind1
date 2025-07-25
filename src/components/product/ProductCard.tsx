@@ -19,11 +19,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
   description
 }) => {
   const projectSlug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  const projectDetails = [
+  /* const projectDetails = [
     'Build a scalable E-commerce platform',
     'Create a dynamic blogging platform',
     'Showcase your skills and projects'
-  ]
+  ] */
 
   return (
     <div className="group flex transform flex-col gap-3 rounded-lg border bg-light p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg">

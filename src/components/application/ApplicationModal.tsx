@@ -17,7 +17,7 @@ type ModalStep = 'auth' | 'application' | 'success';
 type AuthMode = 'login' | 'register';
 
 const ApplicationModal: React.FC<ApplicationModalProps> = ({ isOpen, onClose }) => {
-  const { user, isAuthenticated, login, register } = useAuth();
+  const { isAuthenticated, login, register } = useAuth();
   const [step, setStep] = useState<ModalStep>('auth');
   const [authMode, setAuthMode] = useState<AuthMode>('login');
   const [isLoading, setIsLoading] = useState(false);

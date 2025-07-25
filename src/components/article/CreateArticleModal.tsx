@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { X, FileText, Calendar, Clock, Image, Tag } from 'lucide-react';
+import { X, FileText, Clock, Image, Tag } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
 interface CreateArticleModalProps {
