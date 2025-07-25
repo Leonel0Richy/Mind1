@@ -25,7 +25,7 @@ const applicationRoutes = require('./src/routes/applications');
 const app = express();
 
 // Environment variables with defaults
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const API_VERSION = process.env.API_VERSION || 'v1';
 
