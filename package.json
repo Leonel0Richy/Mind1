@@ -1,7 +1,8 @@
 {
-  "name": "react-tailwind-blog-template",
+  "name": "masterminds-showcase-platform",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A modern, responsive web platform built with React and Tailwind CSS to showcase development projects and technical expertise",
   "type": "module",
   "scripts": {
     "dev": "vite",
