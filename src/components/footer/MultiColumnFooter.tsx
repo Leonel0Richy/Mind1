@@ -84,9 +84,9 @@ const category = {
   ],
 } */
 const contact = {
-  address: '4517 Washington Ave. Manchester, Kentucky 39495',
-  phone: 'Phone: (405) 555-0128',
-  email: 'info@learningonline.com',
+  address: 'Morocco',
+  phone: 'Phone: +212 666 666 666',
+  email: 'lolokq.richy@proton.me',
 }
 
 const Footer = () => {
