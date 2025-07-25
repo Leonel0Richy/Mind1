@@ -6,12 +6,6 @@ const Newsletter = () => {
         <h3 className="font-heading text-center text-2xl font-semibold uppercase tracking-wider text-primary">
           MasterMinds <span className="mt-2 inline-block text-theme md:mt-3">Newsletter</span>
         </h3>
-        <p className="mb-8 mt-2 max-w-[550px] text-center text-base text-primary">
-          Build better and faster UIs.
-          <span className="block">
-            Get the latest components and hooks directly in your inbox. No spam!
-          </span>
-        </p>
         <form className="gap-4 md:flex">
           <input
             type="email"

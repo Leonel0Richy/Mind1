@@ -52,14 +52,14 @@ const quickLinks = {
 }
 
 const category = {
-  title: 'Tailwind Ressources',
+  title: 'Tailwind Resources',
   items: [
     { label: 'Admin & Dashboard', href: '' },
     { label: 'Templates & Kits', href: '' },
     { label: 'React & Tailwind', href: '' },
-    { label: 'Freamework', href: '' },
+    { label: 'Framework Components', href: '' },
     { label: 'HTML & Tailwind', href: '' },
-    { label: 'Freamework', href: '' },
+    { label: 'CSS Framework', href: '' },
     { label: 'Figma Design System', href: '' },
     { label: 'TW Cheatsheet', href: '' },
     { label: 'TW Gradient', href: '' },
@@ -69,19 +69,18 @@ const category = {
 }
 
 const developer = {
-  title: 'DEveloper Ressources',
+  title: 'Developer Resources',
   items: [
     { label: 'GaliChat AI Assistant', href: '' },
     { label: 'GPTs Collection', href: '' },
-    { label: 'Bootstrap Cheat', href: '' },
-    { label: 'Sheet', href: '' },
+    { label: 'Bootstrap Cheat Sheet', href: '' },
     { label: 'ChatGPT Prompts', href: '' },
     { label: 'AI Code Mentor', href: '' },
-    { label: 'Digital Ocean ', href: '' },
+    { label: 'Digital Ocean', href: '' },
     { label: 'Top Software', href: '' },
-    { label: 'Communies', href: '' },
+    { label: 'Communities', href: '' },
     { label: 'Software Engineering', href: '' },
-    { label: 'Inteligence', href: '' },
+    { label: 'Intelligence', href: '' },
   ],
 }
 const contact = {
@@ -98,7 +97,7 @@ const Footer = () => {
           <div className="">
             <a href="/" className="mb-8 flex items-center gap-5 text-white">
               <img
-                src="https://res.cloudinary.com/dyvkdwzcj/image/upload/v1709055594/logo-1_vo1dni.png"
+                src="https://screendy-cdn.fra1.cdn.digitaloceanspaces.com/platfrom-v2/_files/file_1737026922989_geeks-logo.jpg"
                 className="h-8"
                 alt="Logo"
               />

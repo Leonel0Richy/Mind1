@@ -10,10 +10,17 @@ import Newsletter from './components/newsletter/Newsletter'
 import ProductList from './components/product/ProductList'
 import SectionHeading from './components/sectionHeading/ColoredSectionHeading'
 import HomePage from './components/HomePage'
+import { AuthProvider } from './contexts/AuthContext'
+import UserDashboard from './components/dashboard/UserDashboard'
+import ArticleDetail from './components/article/ArticleDetail'
+import ProjectDetail from './components/project/ProjectDetail'
+import ScrollProgressBar from './components/common/ScrollProgressBar'
+import BackToTop from './components/common/BackToTop'
 
 function App() {
   return (
-    <>
+    <AuthProvider>
+      <ScrollProgressBar />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -39,19 +46,18 @@ function App() {
                 subtitle="Explore our comprehensive development projects and showcase your technical expertise"
               />
               <ProductList products={products} />
-              <SectionHeading
-                title={['Popular', 'Articles']}
-                subtitle="Diverse Range of articles related to html css and javascript"
-              />
-              <BlogList posts={blogPosts} type="horizontal" />
               <Faq items={faqs} />
               <Newsletter />
             </div>
           </div>
         } />
+        <Route path="/dashboard" element={<UserDashboard />} />
+        <Route path="/article/:slug" element={<ArticleDetail />} />
+        <Route path="/project/:slug" element={<ProjectDetail />} />
       </Routes>
       <Footer />
-    </>
+      <BackToTop />
+    </AuthProvider>
   )
 }
 

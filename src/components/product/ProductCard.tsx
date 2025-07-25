@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { ZoomIn } from 'lucide-react'
 
 interface ProductCardProps {
@@ -13,8 +14,11 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({
   imageSrc,
   altText,
-  productName
+  productName,
+  price,
+  description
 }) => {
+  const projectSlug = productName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   const projectDetails = [
     'Build a scalable E-commerce platform',
     'Create a dynamic blogging platform',
@@ -22,8 +26,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
   ]
 
   return (
-    <div className="group flex transform flex-col gap-3 rounded-lg border bg-light p-3 transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
-      <figure className="relative h-40 w-full overflow-hidden bg-gray-200 rounded-md">
+    <div className="group flex transform flex-col gap-3 rounded-lg border bg-light p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+      <figure className="relative h-48 w-full overflow-hidden bg-gray-200 rounded-md">
         <img
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
           src={imageSrc}
@@ -34,24 +38,27 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </div>
       </figure>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 flex-1">
         <h3 className="text-xl font-bold text-primary transition-colors duration-200 group-hover:text-theme">
           {productName}
         </h3>
 
-        <div className="space-y-2">
-          {projectDetails.map((detail: string, index: number) => (
-            <div key={index} className="flex items-start gap-2">
-              <span className="w-1.5 h-1.5 bg-theme rounded-full mt-2 flex-shrink-0"></span>
-              <p className="text-sm text-gray-700">{detail}</p>
-            </div>
-          ))}
+        <p className="text-sm text-gray-600 line-clamp-3 flex-1">
+          {description}
+        </p>
+
+        <div className="flex items-center justify-between mt-auto">
+          <span className="text-xl font-bold text-theme">{price}</span>
+          <span className="text-xs text-gray-500">Starting from</span>
         </div>
 
-        <button className="mt-3 w-full bg-theme hover:bg-theme-hover text-white py-2 px-4 rounded-md text-sm font-medium transition-colors duration-200 flex items-center justify-center gap-2">
+        <Link
+          to={`/project/${projectSlug}`}
+          className="w-full bg-theme hover:bg-theme-hover text-white py-3 px-4 rounded-lg text-sm font-medium transition-colors duration-200 flex items-center justify-center gap-2 mt-2"
+        >
           <ZoomIn className="h-4 w-4" />
           Show Details
-        </button>
+        </Link>
       </div>
     </div>
   )

@@ -15,11 +15,11 @@ interface ProductListProps {
   showAll?: boolean
 }
 
-const ProductList: React.FC<ProductListProps> = ({ products, showAll = false }) => {
-  const displayProducts = showAll ? products : products.slice(0, 4)
+const ProductList: React.FC<ProductListProps> = ({ products, showAll = true }) => {
+  const displayProducts = showAll ? products : products.slice(0, 6)
 
   return (
-    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+    <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
       {displayProducts.map((product: Product, index: number) => (
         <ProductCard
           key={index}

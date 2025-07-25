@@ -41,7 +41,7 @@ const Footer = () => {
         <div>
           <a href="/" className="mb-8 flex items-center justify-center gap-5 text-white">
             <img
-              src="https://res.cloudinary.com/dyvkdwzcj/image/upload/v1709055594/logo-1_vo1dni.png"
+              src="https://screendy-cdn.fra1.cdn.digitaloceanspaces.com/platfrom-v2/_files/file_1737026922989_geeks-logo.jpg"
               className="h-8"
               alt="Logo"
             />

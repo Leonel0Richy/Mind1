@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Link } from 'react-router-dom'
 import { formatDate } from '../../utils'
 
 interface BlogPost {
@@ -29,7 +30,7 @@ const BlogCard: FC<BlogCardProps> = ({ post }) => {
         />
       </figure>
 
-      <a href={`/${slug}`}>
+      <Link to={`/article/${slug}`}>
         <h3 className="mb-2 text-xl font-bold text-primary transition-colors duration-200 hover:text-theme">
           {title}
         </h3>
@@ -37,7 +38,7 @@ const BlogCard: FC<BlogCardProps> = ({ post }) => {
         <p className="mt-4 text-sm font-semibold text-primary">
           {formatDate(publishDate)} | {estimatedTimeToRead}
         </p>
-      </a>
+      </Link>
     </div>
   )
 }
